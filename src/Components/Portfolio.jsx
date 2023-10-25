@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/justice-league.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Logo of Justice League";
 
 /**
  * Project list
@@ -54,6 +54,11 @@ const projectList = [
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
+  // {
+  //   title: "Blog",
+  //   description: "Blog site to record my ideas",
+  //   url: "https://blog.clzhao.top",
+  // },
 ];
 
 const Portfolio = () => {
